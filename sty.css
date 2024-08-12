@@ -1,0 +1,25 @@
+
+#number{
+    display:block;
+    text-align:center;
+    font-size:10em;
+
+}
+body #container{
+    justify-content:center;
+    display:flex;
+    align-items:center;   
+}
+.button{
+    margin:0px 40px;
+    background-color:rgba(0, 0, 250, 0.49);
+    cursor: pointer;
+    height:30px;
+    border-radius:5px;
+
+}
+.button:hover{
+    background-color:blue;
+    transform:scale(2);
+
+}
